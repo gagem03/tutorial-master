@@ -1,0 +1,29 @@
+<!-- different types of forms -->
+
+<style>
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 18px;
+}
+input{
+    margin: 6px;
+    max-width: 200px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+</style>
+
+<form action="/controller.php" method="POST">
+    <fieldset>
+        <legend>Login Form</legend>
+
+        <!-- <label for="username">Username: </label> -->
+        <input type="text" name="username" placeholder="username"/>
+
+        <!-- <label for="password">Password: </label> -->
+        <input type="password" name="password" placeholder="password"/>
+    </fieldset>
+</form>
