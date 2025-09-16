@@ -1,3 +1,5 @@
+<!-- table using colspan & rowspan -->
+
 <table>
   <thread>
     <th>Column 1</th>
@@ -19,4 +21,44 @@
   <tr>
     <td style="background: blue">1</td>
   </tr>
+</table>
+
+<!-- table using sectioning elements & caption -->
+
+<br />
+<br />
+<br />
+
+<style></style>
+
+<table>
+  <caption>
+    Table Title
+  </caption>
+  <thread>
+    <tr>
+      <th>Heading 1</th>
+      <th>Heading 2</th>
+      <th>Heading 3</th>
+    </tr>
+
+  </thread>
+
+  <tbody>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 2</td>
+      <td>Cell 3</td>
+    </tr>
+    <tr>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+      <td>Cell 6</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <td colspan="3" align="center">Footer</td>
+  </tfoot>
+
 </table>
