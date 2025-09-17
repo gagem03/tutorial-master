@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Canvas Example</title>
+    </head>
+
+    <body>
+        <canvas id="myCanvas" width="400" height="300" style="border: 1px solid black;"></canvas>
+    </body>
+
+    <script>
+        // Get the canvas element and its context
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+
+        //setup a rectangle
+        ctx.fillStyle = 'blue';
+        ctx.beginPath();
+        ctx.fillRect(50, 50, 100, 80); // pos 50x50, dim 100x80
+    </script>
+</html>
